@@ -2,9 +2,9 @@
     "schema":  "orrery.public-release.v1",
     "version":  "0.1.0-beta",
     "channel":  "beta",
-    "generatedAt":  "2026-07-09T02:15:47.7594446Z",
+    "generatedAt":  "2026-07-09T03:34:24.9262807Z",
     "sourceRepo":  "kenjugmail/buddyide",
-    "sourceCommit":  "b3a92cbfd229851ae5162bbeed06135da84396c8",
+    "sourceCommit":  "e27b8d5b1cb179a18b7940d9a95d7148c749f031",
     "branch":  "feat/extreme-cost-mode-cascade",
     "releaseRepo":  "kenjugmail/orrery-releases",
     "product":  "Orrery",
@@ -12,15 +12,11 @@
     "artifacts":  [
                       {
                           "name":  "Orrery-0.1.0-beta-win-x64-portable.zip",
-                          "sha256":  "8a31a75af62a4757b06c3a96bf9c61543372a1a557e7566d5a6441e9a4729f18"
+                          "sha256":  "421cb012d7f0f9a390aabc3e108bdc180f5a8851b0b3fa207d348dc1127b8543"
                       },
                       {
                           "name":  "package-security-report.json",
-                          "sha256":  "e7bb9fe167651a4f8000675d7bc94c317e2306ac665d4308293619d9baee497b"
-                      },
-                      {
-                          "name":  "checksums.sha256",
-                          "sha256":  "3d78e448ff936b0176ab4344db59857d660547483b937d5beb459c9f7a258bc1"
+                          "sha256":  "2927b4b117139f6a594018bcb560c207c5718e85be31cea0922840bc4e670336"
                       }
                   ],
     "entitlement":  {
@@ -31,8 +27,10 @@
                     },
     "security":  {
                      "binaryOnlyRelease":  true,
-                     "obfuscationReport":  "package-security-report.json",
+                     "firstPartySourceAbsent":  true,
+                     "developmentSourceMetadataAbsent":  true,
                      "sourceMapsAndTsAbsent":  true,
-                     "providerSecretsServerSide":  true
+                     "providerSecretsServerSide":  true,
+                     "obfuscationReport":  "package-security-report.json"
                  }
 }
