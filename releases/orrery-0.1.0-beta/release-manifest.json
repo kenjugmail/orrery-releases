@@ -1,0 +1,38 @@
+﻿{
+    "schema":  "orrery.public-release.v1",
+    "version":  "0.1.0-beta",
+    "channel":  "beta",
+    "generatedAt":  "2026-07-09T02:15:47.7594446Z",
+    "sourceRepo":  "kenjugmail/buddyide",
+    "sourceCommit":  "b3a92cbfd229851ae5162bbeed06135da84396c8",
+    "branch":  "feat/extreme-cost-mode-cascade",
+    "releaseRepo":  "kenjugmail/orrery-releases",
+    "product":  "Orrery",
+    "artifactKind":  "portable-win-x64",
+    "artifacts":  [
+                      {
+                          "name":  "Orrery-0.1.0-beta-win-x64-portable.zip",
+                          "sha256":  "8a31a75af62a4757b06c3a96bf9c61543372a1a557e7566d5a6441e9a4729f18"
+                      },
+                      {
+                          "name":  "package-security-report.json",
+                          "sha256":  "e7bb9fe167651a4f8000675d7bc94c317e2306ac665d4308293619d9baee497b"
+                      },
+                      {
+                          "name":  "checksums.sha256",
+                          "sha256":  "3d78e448ff936b0176ab4344db59857d660547483b937d5beb459c9f7a258bc1"
+                      }
+                  ],
+    "entitlement":  {
+                        "requireSignIn":  true,
+                        "currentPaidPath":  "subscription-or-trial",
+                        "legacyLocalAccess":  "local/BYOK only; no hosted credits/cloud Arbiter",
+                        "arbiterHostedAccess":  "Pro/Max/Ultra cloud capability via Supabase model-relay"
+                    },
+    "security":  {
+                     "binaryOnlyRelease":  true,
+                     "obfuscationReport":  "package-security-report.json",
+                     "sourceMapsAndTsAbsent":  true,
+                     "providerSecretsServerSide":  true
+                 }
+}

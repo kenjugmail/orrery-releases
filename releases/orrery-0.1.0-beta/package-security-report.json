@@ -1,0 +1,55 @@
+{
+  "schema": "orrery.package-security-report.v1",
+  "generatedAt": "2026-07-09T02:12:37.410Z",
+  "status": "passed",
+  "packageDir": "apps/web/dist-app",
+  "audit": {
+    "status": "passed",
+    "checkedEntries": 9276
+  },
+  "obfuscation": {
+    "status": "passed",
+    "firstPartyJavaScriptFiles": 514,
+    "firstPartyTextJavaScriptFiles": 514,
+    "readableFirstPartyJavaScriptFiles": 0,
+    "inlineSourceMapReferences": 0,
+    "coverage": {
+      "electron": 13,
+      "renderer": 24,
+      "sidecar": 53,
+      "firstPartyPackages": 424
+    }
+  },
+  "sourceLeakage": {
+    "status": "passed",
+    "firstPartySourceLikeEntries": 0,
+    "sourceMapsTypescriptDeclarationsTestsFixturesAndEnvFilesAbsent": true
+  },
+  "secretScan": {
+    "status": "passed",
+    "providerKeysStripeSecretsSupabaseServiceRoleAndLocalPathsAbsent": true
+  },
+  "buildIntegrity": {
+    "signedArtifactsRequired": true,
+    "updateSignatureVerificationRequired": true,
+    "binaryOnlyReleaseRepository": true,
+    "packageHashesRecorded": true
+  },
+  "cloudBoundary": {
+    "cloudFeaturesServerGated": true,
+    "providerSecretsServerSide": true,
+    "localOnlyDegradedMode": true,
+    "capabilityTokensShortLived": true
+  },
+  "safeguards": {
+    "packageLeakAuditPassed": true,
+    "productionObfuscationVerified": true,
+    "sourceMapsTypescriptTestsFixturesAndEnvFilesAbsent": true,
+    "providerSecretsStayServerSide": true,
+    "publicConfigRequiresEntitlement": true,
+    "signedArtifactsRequired": true,
+    "binaryOnlyReleaseRepository": true,
+    "cloudFeaturesServerGated": true,
+    "localOnlyDegradedMode": true
+  }
+}
