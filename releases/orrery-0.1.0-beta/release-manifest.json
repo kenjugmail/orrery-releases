@@ -2,7 +2,7 @@
     "schema":  "orrery.public-release.v1",
     "version":  "0.1.0-beta",
     "channel":  "beta",
-    "generatedAt":  "2026-07-09T14:13:02.9512629Z",
+    "generatedAt":  "2026-07-09T15:20:11.6945905Z",
     "sourceRepo":  "kenjugmail/buddyide",
     "sourceCommit":  "ea176b3364982ea6c41d5a67def41e217a6ac545",
     "branch":  "feat/extreme-cost-mode-cascade",
@@ -12,11 +12,11 @@
     "artifacts":  [
                       {
                           "name":  "Orrery-0.1.0-beta-win-x64-portable.zip",
-                          "sha256":  "a9a5d1e39eefc59fd1d744f6006a13c2635dc75b8d3f7cf9008503a3f7705799"
+                          "sha256":  "5131cdbdbdf05cc8d87c394ef74874d32b36c92a89604c1e6d215b2d6b393ae0"
                       },
                       {
                           "name":  "package-security-report.json",
-                          "sha256":  "29fa657ef3886facdbe28f36197090e4c6f2690dc03f8fdc816eac6797e63817"
+                          "sha256":  "cb7a547af5be5189b4d3a22ebdd7d8d188b15579b60cf2380a952a3941814ab9"
                       }
                   ],
     "entitlement":  {
@@ -24,7 +24,8 @@
                         "currentPaidPath":  "subscription-or-trial",
                         "previewMode":  "UI setup and demo preview only; real agent/model work requires active trial/subscription",
                         "arbiterHostedAccess":  "Pro/Max/Ultra cloud capability via Supabase model-relay",
-                        "localByokPublicPlan":  "deprecated; not a current public access path"
+                        "localByokPublicPlan":  "deprecated; not a current public access path",
+                        "packagedVerifier":  "sidecar receives ED_REQUIRE_ENTITLEMENT plus Supabase cloud auth verifier config from packaged orrery-config.js"
                     },
     "security":  {
                      "binaryOnlyRelease":  true,
