@@ -1,4 +1,4 @@
-﻿# Orrery 0.1.0-beta Beta
+# Orrery 0.1.0-beta Beta
 
 Portable Windows beta build for subscriber testing.
 
@@ -11,12 +11,12 @@ Portable Windows beta build for subscriber testing.
 
 ## Access Boundary
 
-Orrery requires sign-in. Hosted Arbiter, DeepSeek, Doubleword credits, managed connectors, cloud runs, and proof-vault features are server-gated for active trial/subscription plans. Legacy local access remains local/BYOK only.
+Orrery requires sign-in. Real agent/model work, hosted Arbiter, DeepSeek, Doubleword credits, managed connectors, cloud runs, and proof-vault features are gated to active trial/subscription plans. Preview mode lets signed-in users inspect setup and product surfaces without consuming cloud capacity.
 
 ## Hardening Boundary
 
-The public packet is a binary/metadata release: private Orrery source, source maps, TypeScript sources, tests, fixtures, env files, provider keys, BYOK keys, and server secrets are excluded. Electron/Node apps remain reverse-engineerable in principle, so paid cloud value is enforced server-side.
+The public packet is a binary/metadata release: private Orrery source, source maps, TypeScript sources, tests, fixtures, env files, provider keys, API keys, and server secrets are excluded. Paid cloud value is enforced server-side.
 
 ## Installer Note
 
-The NSIS installer/update feed is intentionally blocked until a Windows code-signing certificate is configured with CSC_LINK/CSC_KEY_PASSWORD or CSC_NAME. This beta asset is a portable zip built from the obfuscated packaged app.
+The NSIS installer/update feed is intentionally blocked until a Windows code-signing certificate is configured with CSC_LINK/CSC_KEY_PASSWORD or CSC_NAME. This beta asset is a portable zip built from the packaged app.

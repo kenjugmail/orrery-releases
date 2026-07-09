@@ -1,10 +1,10 @@
-﻿{
+{
     "schema":  "orrery.public-release.v1",
     "version":  "0.1.0-beta",
     "channel":  "beta",
-    "generatedAt":  "2026-07-09T03:34:24.9262807Z",
+    "generatedAt":  "2026-07-09T14:13:02.9512629Z",
     "sourceRepo":  "kenjugmail/buddyide",
-    "sourceCommit":  "e27b8d5b1cb179a18b7940d9a95d7148c749f031",
+    "sourceCommit":  "ea176b3364982ea6c41d5a67def41e217a6ac545",
     "branch":  "feat/extreme-cost-mode-cascade",
     "releaseRepo":  "kenjugmail/orrery-releases",
     "product":  "Orrery",
@@ -12,18 +12,19 @@
     "artifacts":  [
                       {
                           "name":  "Orrery-0.1.0-beta-win-x64-portable.zip",
-                          "sha256":  "421cb012d7f0f9a390aabc3e108bdc180f5a8851b0b3fa207d348dc1127b8543"
+                          "sha256":  "a9a5d1e39eefc59fd1d744f6006a13c2635dc75b8d3f7cf9008503a3f7705799"
                       },
                       {
                           "name":  "package-security-report.json",
-                          "sha256":  "2927b4b117139f6a594018bcb560c207c5718e85be31cea0922840bc4e670336"
+                          "sha256":  "29fa657ef3886facdbe28f36197090e4c6f2690dc03f8fdc816eac6797e63817"
                       }
                   ],
     "entitlement":  {
                         "requireSignIn":  true,
                         "currentPaidPath":  "subscription-or-trial",
-                        "legacyLocalAccess":  "local/BYOK only; no hosted credits/cloud Arbiter",
-                        "arbiterHostedAccess":  "Pro/Max/Ultra cloud capability via Supabase model-relay"
+                        "previewMode":  "UI setup and demo preview only; real agent/model work requires active trial/subscription",
+                        "arbiterHostedAccess":  "Pro/Max/Ultra cloud capability via Supabase model-relay",
+                        "localByokPublicPlan":  "deprecated; not a current public access path"
                     },
     "security":  {
                      "binaryOnlyRelease":  true,

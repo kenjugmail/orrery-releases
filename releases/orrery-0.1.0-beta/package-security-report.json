@@ -1,11 +1,11 @@
 {
   "schema": "orrery.package-security-report.v1",
-  "generatedAt": "2026-07-09T03:30:23.166Z",
+  "generatedAt": "2026-07-09T14:10:58.122Z",
   "status": "passed",
   "packageDir": "apps/web/dist-app",
   "audit": {
     "status": "passed",
-    "checkedEntries": 4547
+    "checkedEntries": 4548
   },
   "obfuscation": {
     "status": "passed",
